@@ -12,9 +12,10 @@ getwd()
 # update.packages(ask=FALSE)
 
 cat("Number of installed packages: ",
-    nrow(installed.packages()), "\n")
+    nrow(utils::installed.packages()), "\n")
 
 cat("libPaths:\n")
 .libPaths()
 
 install.packages("rstudioapi")
+library(zoo)
