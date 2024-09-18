@@ -18,4 +18,3 @@ cat("libPaths:\n")
 .libPaths()
 
 install.packages("rstudioapi")
-library(zoo)
